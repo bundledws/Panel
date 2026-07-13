@@ -1,0 +1,17 @@
+{
+  "name": "bundledws",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BundledWS — Self-contained Node.js hosting control panel",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "setup": "node dist/setup.js",
+    "postinstall": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
